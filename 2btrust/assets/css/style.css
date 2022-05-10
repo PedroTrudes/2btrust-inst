@@ -263,6 +263,15 @@ ul {
 /*--
     Default Class
 */
+/*
+  Ajustes de Pedro
+*/
+.list-mark{
+  margin-left: 25px;
+  list-style: disc;
+  
+}
+
 .text-color-primary, .title--default {
   color: #14235a;
 }
