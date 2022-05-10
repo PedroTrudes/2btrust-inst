@@ -269,7 +269,13 @@ ul {
 .list-mark{
   margin-left: 25px;
   list-style: disc;
-  
+  margin-bottom: 15px;
+
+}
+
+.list-circle{
+  margin-left: 25px;
+  list-style: circle;
 }
 
 .text-color-primary, .title--default {
