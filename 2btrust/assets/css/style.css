@@ -264,7 +264,7 @@ ul {
     Default Class
 */
 /*
-  Ajustes de Pedro
+  Inicio dos Ajustes de Pedro
 */
 .list-mark{
   margin-left: 25px;
@@ -277,6 +277,16 @@ ul {
   margin-left: 25px;
   list-style: circle;
 }
+
+.list-number{
+  margin-left: 25px;
+  list-style: decimal;
+  margin-bottom: 15px;
+}
+
+/* 
+final dos ajustes PEDRO
+*/
 
 .text-color-primary, .title--default {
   color: #14235a;
