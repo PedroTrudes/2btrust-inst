@@ -10908,6 +10908,14 @@ input[type="checkbox"] {
           align-items: center;
 }
 
+.bg-img-ajust{
+  background-repeat: no-repeat!important;
+  background-position: center;
+  background-size: 100%;
+  border-top-left-radius: 85px;
+  border-bottom-left-radius: 85px;
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
   .start-up-hero {
     height: 700px;
@@ -10915,6 +10923,7 @@ input[type="checkbox"] {
   .start-up-hero h1 {
     font-size: 52px;
   }
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -10924,6 +10933,7 @@ input[type="checkbox"] {
   .start-up-hero h1 {
     font-size: 52px;
   }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -10936,6 +10946,7 @@ input[type="checkbox"] {
   .start-up-hero h1 {
     font-size: 40px;
   }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -10947,6 +10958,18 @@ input[type="checkbox"] {
   }
   .start-up-hero h1 {
     font-size: 30px;
+  }
+
+  .bg-img{
+    background-size: cover;
+    background-position: center;
+    opacity: 50%;
+    background-repeat: no-repeat;
+    filter: brightness(34%);
+
+  }
+  .bg-img-ajust{
+    border-radius: 0%;
   }
 }
 
