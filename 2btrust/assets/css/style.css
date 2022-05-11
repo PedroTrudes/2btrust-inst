@@ -10915,6 +10915,13 @@ input[type="checkbox"] {
   border-top-left-radius: 85px;
   border-bottom-left-radius: 85px;
 }
+.bg-img-footer{
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-color: #12235A;
+}
+
 
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
   .start-up-hero {
@@ -10971,6 +10978,19 @@ input[type="checkbox"] {
   .bg-img-ajust{
     border-radius: 0%;
   }
+  .bg-img-footer{
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-color: #12235A;
+  }
+
+  .bg-reset{
+    opacity: 100%;
+    filter: none;
+    background-size: cover;
+  }
+ 
 }
 
 .start-up-hero.bg-img {
